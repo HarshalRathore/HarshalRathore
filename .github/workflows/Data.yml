@@ -2,7 +2,7 @@ name: Generate Data For README.md
 on:
   workflow_dispatch: # execute manually
   schedule: # execute every 12 hours
-    - cron: "0 0 * * **"
+    - cron: "0 0 * * *"
 
 jobs:
 
